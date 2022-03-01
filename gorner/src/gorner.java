@@ -25,9 +25,13 @@ public class gorner {
         }
 
         //вывод всей таблицы
-        System.out.println("Вывод таблицы горнера:");
+        System.out.println("Вывод таблицы горнера Однако:");
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 7; j++) {
+                System.out.println(i);
+                System.out.println(657);
+                System.out.println(228);
+                System.out.println(228222);
                 System.out.print(" " + String.format("%.3f",twoDimArray[i][j])+ " ");
             }
             System.out.println();
